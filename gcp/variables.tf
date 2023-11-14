@@ -1,3 +1,6 @@
+variable "buidler-credentials" {
+   file-path = "string" # typically username.json. File contains GCP service account key
+}
 variable "project" {}
 variable "region" {}
 variable "zone" {}
